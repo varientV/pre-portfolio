@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+}
+#body-header{
+    height: 65vh;
+    background-image: url("pic1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+.horizontal-list{
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0%;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 8px 28px 0px;
+    font-size: small;
+}
+
+.horizontal-list li a{
+    text-decoration: none;
+    font-family: cursive;
+    color: aliceblue;
+}
+
+.nav-menu li a {
+    transition: color 2s, border-bottom 1s;
+}
+.nav-menu li a:hover{
+    color: aqua;
+    border-bottom: 1px solid gold;
+
+}
+.text-center{
+    text-align: center;
+}
+#my-name{
+    
+    margin-top: 50px;
+    word-spacing: 30px;
+    color: aliceblue;
+    font-family: cursive;
+    margin-bottom: 0px;
+}
+
+.socail-icon li a i{
+    padding: 6px;
+    font-size: .8rem;
+    border-radius: 50%;
+
+}
+
+.socail-icon li a i:hover{
+    text-decoration: none;
+    box-shadow: 0px 0px 2px 1px aqua;
+    
+}
+#About{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: -14vh;
+}
+
+
+#my-img img{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 3px rgb(244, 250, 250);
+}
